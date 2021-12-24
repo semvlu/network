@@ -1,5 +1,5 @@
 #include <stdio.h>
-double cache(int objsize,
+float cache(int objsize,
 int Rdatabwsr, // avg data rate to browser
 int RTT,
 int Raclink, // access link rate
@@ -8,7 +8,7 @@ float Dinternet, // Internet delay
 float Dlan, // LAN delay, ms to s
 float Dcache);
    
-double cache(int objsize,
+float cache(int objsize,
 int Rdatabwsr, // avg data rate to browser
 int RTT,
 int Raclink, // access link rate
